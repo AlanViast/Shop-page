@@ -1,4 +1,5 @@
 
+/* my modal start */
 .my-modal.modal-dialog > .modal-content{
   border-radius: 20px;
 }
@@ -15,4 +16,118 @@
 .my-modal.modal-dialog > .modal-content > .modal-header > .close {
   margin-top: 3px;
   margin-right: 10px;
+}
+
+.my-modal.modal-dialog > .modal-content > .modal-body > form >.form-group{
+    margin-bottom: 10px;
+}
+
+.my-modal.modal-dialog > .modal-content > .modal-body > form >.form-group > .col-md-6 > .btn.cancel{
+    color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.my-modal.modal-dialog > .modal-content > .modal-body > form >.form-group.error {
+    display: none;
+}
+
+.my-modal.modal-dialog > .modal-content > .modal-body > form >.form-group.error >  .col-md-9{
+    font-size: 10px;
+    color: red;
+    padding-left: 5px;
+}
+
+.my-modal.modal-dialog > .modal-content > .modal-body > form >.form-group.error >  .col-md-9.gray-text{
+    color: gray;
+}
+
+.my-modal.modal-dialog > .modal-content > .modal-body > form >.form-group >  .col-md-3.icon-safe{
+    text-align: right;
+    line-height: 34px;
+}
+
+.my-modal.modal-dialog > .modal-content > .modal-body > form >.form-group > .col-md-7{
+    padding-left: 5px;
+}
+
+.my-modal.modal-dialog > .modal-content > .modal-body > form >.form-group > label.control-label.col-md-3{
+    text-align: right;
+    padding-right: 0;
+}
+/* my modal end */
+
+
+/* Green modal Start*/
+.modal-dialog.success > .modal-content{
+    background-color: #5cb85c;
+}
+.modal-dialog.success > .modal-content > .modal-body{
+    color: white;
+}
+
+.modal-dialog.success > .modal-content > .modal-body > .row > .btn.btn-success{
+    border-color: white;
+    word-spacing: 5px;
+}
+
+.modal-xs {
+    width: 120px;
+}
+/* Green modal End*/
+
+
+/* remind setting Start */
+.row.remind-setting > .col-md-12 > .pull-right {
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.row.remind-setting > .col-md-12{
+  border-bottom: 1px solid #F9EFEF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.row.remind-setting > .col-md-12 > .remind-setting-option{
+  padding-top: 15px;
+}
+
+.row.remind-setting > .col-md-12 > .remind-setting-option > .radio-group > div {
+  margin-left: 30px;
+}
+
+.row.remind-setting > .col-md-12 > .remind-setting-option > p > div{
+  margin-left: 15px;
+}
+
+.row.remind-setting > .col-md-12 > h4 > img{
+  padding-bottom: 3px;
+  padding-left: 8px;
+}
+
+
+
+
+/* remind setting End */
+
+/* Custom style*/
+.btn-gray {
+  color: #fff;
+  background-color: #7C7C9A;
+  border-color: #939393;
+}
+
+.padding-left-30{
+    padding-left: 30px;
+}
+
+.margin-top-5{
+    margin-top: 5px;
+}
+
+.margin-bottom-5{
+    margin-bottom: 5px;
+}
+.btn{
+    word-spacing: 10px;
 }
