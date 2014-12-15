@@ -31,6 +31,7 @@ body{
   text-align: center;
 }
 
+.my-modal.modal-dialog > .modal-content > .modal-body > form >.form-group > .col-md-7 > .input-group.spinner > input:focus,
 .my-modal.modal-dialog > .modal-content > .modal-body > form >.form-group > .col-md-7 > input:focus {
   border-color: #CCC;
   outline: 0;
@@ -106,6 +107,11 @@ body{
 
 .modal-xs {
     width: 120px;
+}
+
+.modal-dialog.success > .modal-content{
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 /* Green modal End*/
 
@@ -211,5 +217,21 @@ body{
   color: #FFF;
   background-color: #F8846D;
   border-color: #F8846D;
+}
+
+
+.stepper{
+  width:150px;
+}
+.stepper .stepper-input{
+  text-align: center;
+}
+
+
+
+/* Override bootstrap-spinner */
+.input-group-addon{
+  padding: 0px 7px;
+  background-color: #FFF;
 }
 
